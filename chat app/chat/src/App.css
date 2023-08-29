@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@media(max-aspect-ratio:7/10){
+    .joincontainer{
+        width: 100% !important;
+        height: 70% !important;
+        border:2px solid white
+    }
+    .joincontainer img{
+        width: 30vmax !important;
+    }
+    .joincontainer h1{
+        color: white;
+        width: 55vw !important;
+        font-size: 2.5vmax;
+        border-bottom: 0.6vmax solid white;
+        align-items: center;
+        margin-bottom: 2vmax;
+        padding: 3vw !important;
+    }
+    #joininput{
+        width: 65vw !important;
+        padding: 4vw !important;
+       
+        font-size: 5vw !important;
+        margin: 5vw !important;
+        box-sizing: border-box;
+    }
+    .joinbtn{
+        width: 65vw !important;
+        padding: 4vw !important;
+        border: none;
+        outline:none;
+        font-size: 5vw !important;
+       
+    }
+    .chatcontainer{
+        background-color: white;
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .header{
+       
+        height: 10% !important;
+        
+    }
+    .header>h1{
+         font-size: 5vw !important;
+        margin: 8vw !important;
+    }
+    .header>a>img{
+        margin: 6vw !important;
+        transform: scale(2) !important;
+    }
+    .header>img:hover{
+        transform:scale(3.2) !important;
+    }
+    .chatbox{
+        height: 80% !important;
+      
+        }
+        .chatinputbox{
+            height:10% !important;
+           
+        }
+        
+        #chatinput{
+           
+            padding: 2vmax;
+            font-size: 4vw !important;
+        }
+        .messagebox{
+          /*  width: initial !important;*/
+            padding: 3vw !important;
+            margin: 3vw !important;
+            border-radius: 1.5vw !important;
+            font-size: 4vw !important;
+        }
+}
